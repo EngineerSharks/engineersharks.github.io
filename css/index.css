@@ -1,0 +1,99 @@
+
+body {
+    background: linear-gradient(-45deg, #56b2f1, #0f30be, #0084bb, #21f1c0);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    margin: 0;
+    font-family: "Ubuntu", serif;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.header {
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-size: 58px;
+    color: white;
+}
+
+.header_sub {
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.main_content {
+    height: 100%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content_text {
+    max-width: 60%;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.buttons {
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.link_button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 100%;
+    appearance: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    border: 0;
+    transition-duration: .25s;
+    color: black;
+    font-size: 24px;
+}
+
+.padding_area {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    .main_content {
+        margin: 0;
+    }
+    .main_content_text {
+        max-width: 100%;
+    }
+    .header {
+        font-size: 24px;
+    }
+}

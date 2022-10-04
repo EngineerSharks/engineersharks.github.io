@@ -1,0 +1,3 @@
+
+# ignore WebStorm's .idea folder they like to create.
+.idea
