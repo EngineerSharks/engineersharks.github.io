@@ -48,8 +48,8 @@ body {
 }
 
 .main_content_text {
-    max-width: 60%;
     color: black;
+    max-width: 60%;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
@@ -83,6 +83,22 @@ body {
 .padding_area {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.main_content_quote {
+    color: #464646;
+    max-width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_content_quote a {
+    color: #0f30be;
 }
 
 /*mobile*/
